@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font MagicSchoolOne */
+@font-face {
+  font-family: 'MagicSchool';
+  src: url('/fonts/MagicSchoolOne.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  @apply bg-gray-100 text-black;
+  font-family: 'MagicSchool', cursive;
+}
+
+/* Classe personalizzata (opzionale, se vuoi usarla in modo specifico) */
+.font-magic {
+  font-family: 'MagicSchool', cursive;
+}
